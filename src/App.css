@@ -1,0 +1,43 @@
+.margin-15 {
+  margin: 15px; }
+
+.padding-15 {
+  padding: 15px; }
+
+.App {
+  text-align: center;
+  color: #333; }
+  .App #searchForm .action-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+.control-label {
+  display: block; }
+
+.react-date-picker__calendar--above-label {
+  top: 30px; }
+
+input {
+  width: 50%; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
